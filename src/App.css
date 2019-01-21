@@ -1,32 +1,67 @@
-.App {
+body, html {
+  background-color: #414a4c !important;
+}
+h1 {
   text-align: center;
+  font-size: 3rem !important;
+  margin-top: 3rem !important;
+  color: #eee;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+h2 {
+  color: #eee;
+  line-height: 0.2 !important;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ul, li {
+  list-style: none
+}
+.lyrics-small {
+  text-align: center;
   color: white;
+  margin-bottom: 5rem;
+  border-radius: 15px;
+}
+.lyrics-big {
+  text-align: center;
+  color: white;
+  margin-bottom: 5rem;
+  border-radius: 15px;
+  font-size: 1.35rem;
 }
 
-.App-link {
-  color: #61dafb;
+.form {
+  margin-top: 3rem !important;
+  width: 50%;
+  margin: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mode {
+  margin: auto !important;
+  text-align: center !important;
+}
+input {
+  font-size: 1.15rem !important;
+  outline: #FF1493 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 1rem !important;
+}
+input:focus {
+  outline: #FF1493 !important;
+  background-color: #414a4c !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 1px solid white !important;
+  color: white !important;
+}
+button {
+  color: black !important;
+}
+button:hover {
+  color: white !important;
+  background-color: #414a4c !important;
+  border: 1px solid black !important;
 }
